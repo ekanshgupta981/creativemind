@@ -1,0 +1,80 @@
+* {
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+}
+.sg {
+  background: #9cdba632;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-top: 2px solid #508d4e;
+  border-bottom: 2px solid #508d4e;
+}
+.bg-wlp {
+  background: url("Images/plant\ gif.gif");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.head-sec {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.601),
+      rgba(0, 0, 0, 0.249),
+      rgb(15, 15, 15)
+    ),
+    url("Images/depositphotos_113960198-stock-photo-dark-soil-background-transformed.jpeg");
+  height: 75vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bg-grn {
+  background: #1a5319;
+}
+.cl-grn {
+  color: #1a5319;
+}
+.search {
+  border: 2px solid #9cdba6;
+  border-radius: 0.5rem;
+}
+.search:hover {
+  border: 2px solid #50b498;
+}
+.cp {
+  cursor: pointer;
+}
+.nav-txt {
+  transition: 200ms ease-in-out;
+  color: white;
+}
+.nav-txt:hover {
+  color: #50b498 !important;
+  transform: scale(1.1) !important;
+}
+.carousel-inner {
+  height: 30rem;
+}
+.bnr {
+  background: url("Images/Untitled-2.jpg");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bnr1 {
+  background: url("Images/cactus.jpg");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
