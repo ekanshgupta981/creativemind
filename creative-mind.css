@@ -4,12 +4,10 @@
   font-style: normal;
 }
 .sg {
-  background: #9cdba632;
+  background: #26dfcf32;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
-  border-top: 2px solid #508d4e;
-  border-bottom: 2px solid #508d4e;
 }
 .bg-wlp {
   background: url("Images/plant\ gif.gif");
@@ -77,4 +75,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+/* categories */
+.ctgr {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 5rem;
 }
