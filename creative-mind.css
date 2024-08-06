@@ -42,21 +42,21 @@
   color: #1a5319;
 }
 .search {
-  border: 2px solid #9cdba6;
-  border-radius: 0.5rem;
+  border: 2px solid #508d4e;
+  border-radius: 0.3rem;
 }
 .search:hover {
-  border: 2px solid #50b498;
+  border: 2px solid #1a5319;
 }
 .cp {
   cursor: pointer;
 }
 .nav-txt {
   transition: 200ms ease-in-out;
-  color: white;
+  color: black;
 }
 .nav-txt:hover {
-  color: #50b498 !important;
+  color: #508d4e !important;
   transform: scale(1.1) !important;
 }
 .carousel-inner {
@@ -79,7 +79,36 @@
 
 /* categories */
 .ctgr {
-  height: 10rem;
-  width: 10rem;
-  border-radius: 5rem;
+  height: 12rem;
+  width: 12rem;
+  background: url("Images/hanger.png");
+  background-position: center;
+  background-size: contain;
+}
+.ctgr img {
+  height: 12rem;
+  width: 12rem;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+.ctgr img:hover {
+  transform: scale(1.1);
+  animation: cat 3s infinite linear;
+}
+
+/* animation */
+@keyframes cat {
+  25% {
+    margin-top: -0.5rem;
+  }
+  50% {
+    margin-top: 0rem;
+  }
+  75% {
+    margin-top: 0.5rem;
+  }
+  100% {
+    margin-top: 0rem;
+  }
 }

@@ -30,69 +30,53 @@
   <body>
     <div class="bg-wlp"></div>
     <header>
-      <section class="head-sec">
-        <!-- nav -->
+      <!-- nav -->
+      <div
+        class="d-flex col-12 justify-content-between align-items-center py-2 bg-white shadow-sm"
+      >
+        <div class="logo rounded-end-pill text-white h3 col-2 p-2 bg-grn">
+          Logo
+        </div>
         <div
-          class="d-flex col-12 justify-content-between align-items-center pt-4"
+          class="col-lg-9 justify-content-end col-10 d-flex align-items-center"
         >
-          <div class="logo rounded-end-pill text-white h3 col-2 p-2 bg-grn">
-            Logo
-          </div>
-          <div
-            class="col-lg-7 justify-content-end col-10 d-flex align-items-center"
-          >
-            <div class="col-12">
-              <div
-                class="d-flex align-items-center justify-content-evenly text-white"
-              >
-                <div class="cp nav-txt">Plants</div>
-                <div class="cp nav-txt">Seeds</div>
-                <div class="cp nav-txt">Miniatures</div>
-                <div class="cp nav-txt">Manures</div>
-                <div class="cp nav-txt">Indoor Plants</div>
-                <div>
-                  <div class="ms-3">
-                    <i
-                      class="bi cp nav-txt bi-person-circle text-white fs-4 px-3"
-                    ></i>
-                    <i class="bi cp nav-txt bi-cart text-white fs-4 px-3"></i>
-                  </div>
+          <div class="col-12">
+            <div
+              class="d-flex align-items-center justify-content-evenly text-white"
+            >
+              <div class="position-relative col-4 shadow-sm">
+                <div class="d-flex align-items-center">
+                  <i
+                    class="bi bi-search position-absolute fw-bolder text-secondary ms-2 ps-2"
+                  ></i>
+
+                  <input
+                    type="text"
+                    class="col-12 search p-1 ps-5"
+                    placeholder="Search For plants..."
+                  />
+                </div>
+              </div>
+              <div class="cp nav-txt">Plants</div>
+              <div class="cp nav-txt">Seeds</div>
+              <div class="cp nav-txt">Miniatures</div>
+              <div class="cp nav-txt">Manures</div>
+              <div class="cp nav-txt">Indoor Plants</div>
+              <div>
+                <div class="ms-3">
+                  <i
+                    class="bi cp nav-txt bi-person-circle text-dark fs-4 px-3"
+                  ></i>
+                  <i class="bi cp nav-txt bi-cart text-dark fs-4 px-3"></i>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div>
-          <h1
-            class="text-center fw-bold text-light display-6 permanent-marker-regular"
-            style="margin-top: 8%"
-          >
-            Create an Ambience and Freshness <br />
-            in your home
-          </h1>
-          <div class="d-flex justify-content-center mt-5">
-            <div class="col-6 position-relative fs-5">
-              <div class="d-flex align-items-center">
-                <i
-                  class="bi bi-search position-absolute fw-bolder text-secondary ms-2 ps-2"
-                ></i>
-
-                <input
-                  type="text"
-                  class="col-12 search p-1 ps-5"
-                  placeholder="Search For plant, seeds, miniatures and more..."
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </header>
     <!-- banner -->
-    <section>
-      <div>
-        <h1 class="text-center py-4 fw-bold text-white sg mb-0">Best Deals</h1>
-      </div>
+    <section class="">
       <div
         id="carouselExampleAutoplaying"
         class="carousel slide"
@@ -102,6 +86,7 @@
           <div class="carousel-item active" data-bs-interval="3500">
             <div class="d-block w-100 bnr"></div>
           </div>
+
           <div class="carousel-item" data-bs-interval="3500">
             <div class="d-block w-100 bnr1"></div>
           </div>
@@ -129,48 +114,49 @@
         </button>
       </div>
     </section>
+    <!-- categories -->
     <section>
       <div>
-        <div class="bg-white py-5 d-flex justify-content-evenly">
+        <div class="bg-white d-flex justify-content-evenly">
           <div
             class="d-flex justify-content-center flex-column align-items-center"
           >
-            <div class="ctgr bg-secondary">
-              <img src="" alt="" />
+            <div class="ctgr">
+              <img src="Images/lts.png" alt="" />
             </div>
-            <p class="mt-2">text</p>
+            <p class="mt-2 fw-bold">Succulents</p>
           </div>
           <div
             class="d-flex justify-content-center flex-column align-items-center"
           >
-            <div class="ctgr bg-secondary">
-              <img src="" alt="" />
+            <div class="ctgr">
+              <img src="Images/cactus.png" alt="" />
             </div>
-            <p class="mt-2">text</p>
+            <p class="mt-2 fw-bold">Cactus</p>
           </div>
           <div
             class="d-flex justify-content-center flex-column align-items-center"
           >
-            <div class="ctgr bg-secondary">
-              <img src="" alt="" />
+            <div class="ctgr">
+              <img src="Images/jar.png" alt="" />
             </div>
-            <p class="mt-2">text</p>
+            <p class="mt-2 fw-bold fw-bold">Seeds</p>
           </div>
           <div
             class="d-flex justify-content-center flex-column align-items-center"
           >
-            <div class="ctgr bg-secondary">
-              <img src="" alt="" />
+            <div class="ctgr">
+              <img src="Images/pots.png" alt="" />
             </div>
-            <p class="mt-2">text</p>
+            <p class="mt-2 fw-bold">Pots & Planters</p>
           </div>
           <div
             class="d-flex justify-content-center flex-column align-items-center"
           >
-            <div class="ctgr bg-secondary">
-              <img src="" alt="" />
+            <div class="ctgr">
+              <img src="Images/miniature.png" alt="" />
             </div>
-            <p class="mt-2">text</p>
+            <p class="mt-2 fw-bold">Miniatures</p>
           </div>
         </div>
       </div>
